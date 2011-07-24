@@ -1,0 +1,12 @@
+--- LogKit-1.2/build.xml.fc5	2005-12-14 10:31:24.655569500 -0800
++++ LogKit-1.2/build.xml	2005-12-14 10:31:32.788077750 -0800
+@@ -327,8 +327,7 @@
+            destdir="${build.classes}"
+            debug="${debug}"
+            optimize="${optimize}"
+-           deprecation="${deprecation}"
+-           target="1.2">
++           deprecation="${deprecation}">
+       <src path="${test.dir}"/>
+       <src path="${compat.dir}"/>
+       <exclude name="org/apache/log/output/ServletOutputLogTarget.java"
